@@ -1,0 +1,26 @@
+-włącz aplikację kalkulator
+-wyświetl 0
+-wybór liczbę/liczby rozpoczynającej działanie: liczba x
+-wybór działania
+--jeśli (+) dodaj x i y
+--jeśli (-) odejmij x od y
+--jeśli (*) pomnóż x przez y
+--jeśli (/) podziel x przez y
+--jeśli (%) wykonaj funkcję procentu
+---wprowadź liczbę y
+----wyświetl wynik
+--jeśli  (+/-) pomnóż przez -1
+---wyświetl wynik
+--jeśli (1/x) podziel 1 przez wcześniej wprowadzoną liczbę x
+---wyświetl wynik
+--jeśli pierwiastek: zpierwiastkuj liczbę x
+---wyświetl wynik
+--jeżeli (MS) zapisz x w pamięci kalkulatora
+--jeżeli (M+) dodaj obliczoną liczbę do zawartości pamięci
+--jeżeli (M-) odejmij obliczoną liczbę do zawartości pamięci
+--jeżeli (MR) wyświetl liczbę z pamięci
+--jeżeli (MC) kasuj liczbę z pamięci
+-jeżeli chcesz skasować ostatnią wyświetlaną cyfrę użyj (<--)
+-jeżeli chcesz skasować ostatnie działanie użyj (C)
+-jeżeli chcesz skasować wszystko użyj (CE)
+-jeżeli (=) wyświetl wynik wszystkich poprzednich działań

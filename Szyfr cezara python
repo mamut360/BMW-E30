@@ -1,0 +1,25 @@
+string=input("wpisz wiadomosc do zaszyfrowania \n")
+#file writng is completed
+small_alph = ['a','b','c','d','e','f','g','h','i','j','k','l','m',
+	      'n','o','p','q','r','s','t','u','v','w','x','y','z']
+big_alph = ['A','B','C','D','E','F','G','H','I','J','K','L','M',
+	    'N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+key=int(input("wpisz ilosc przesuniecia\n"))
+szyfr=""
+zwykly=""
+#szyfrtekst starts as empty string
+for i in string:
+    if i in big_alph:
+        szyfr += big_alph[(big_alph.index(i) + key) % len(big_alph)]
+    elif i in small_alph:
+        szyfr += small_alph[(small_alph.index(i) + key) % len(small_alph)]
+    else:
+        szyfr += i
+for i in szyfr:
+    if i in big_alph:
+        zwykly += big_alph[(big_alph.index(i) - key) % len(big_alph)]
+    elif i in small_alph:
+        zwykly += small_alph[(small_alph.index(i) - key) % len(small_alph)]
+    else:
+        zwykly+=i
+print("zaszyfrowany tekst:",szyfr)
